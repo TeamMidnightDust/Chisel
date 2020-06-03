@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "chisel",
+  "version": "0.0.1",
+
+  "name": "Chisel for Fabric",
+  "description": "The beloved Chisel mod, rewritten for fabric!",
+  "authors": [
+    "Motschen",
+    "TeamMidnightDust",
+    "AUTOMATIC_MAIDEN",
+	"asiekierka",
+	"Pokefenn",
+	"Cricket",
+	"tterrag",
+	"Drullkus",
+	"minecreatr"
+  ],
+  "contact": {
+    "homepage": "https://github.com/TeamMidnightDust/Chisel",
+    "issues": "https://github.com/TeamMidnightDust/Chisel/issues"
+  },
+
+  "license": "GNU GPLv3",
+  "icon": "assets/chisel/textures/item/iron_chisel.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "eu.midnightdust.chisel.Chisel"
+    ],
+    "client": [
+      "eu.midnightdust.chisel.client.ChiselClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": ">=1.15.2"
+  },
+  "recommends": {
+    "connected_block_textures": "*"
+  }
+}
