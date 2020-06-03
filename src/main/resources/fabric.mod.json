@@ -21,7 +21,7 @@
     "issues": "https://github.com/TeamMidnightDust/Chisel/issues"
   },
 
-  "license": "GNU GPLv3",
+  "license": "GNU GPLv2",
   "icon": "assets/chisel/textures/item/iron_chisel.png",
 
   "environment": "*",
